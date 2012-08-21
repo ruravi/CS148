@@ -1,0 +1,191 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		A536CCE614875F3500C57F96 /* ext */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ext; sourceTree = "<group>"; };
+		A536CCE714875F3500C57F96 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		A536CCE814875F3500C57F96 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+		A536CCE914875F3500C57F96 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A536CCEA14875F3500C57F96 /* STColor3f.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STColor3f.cpp; sourceTree = "<group>"; };
+		A536CCEB14875F3500C57F96 /* STColor4f.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STColor4f.cpp; sourceTree = "<group>"; };
+		A536CCEC14875F3500C57F96 /* STColor4ub.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STColor4ub.cpp; sourceTree = "<group>"; };
+		A536CCED14875F3500C57F96 /* STFont.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STFont.cpp; sourceTree = "<group>"; };
+		A536CCEE14875F3500C57F96 /* STImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STImage.cpp; sourceTree = "<group>"; };
+		A536CCEF14875F3500C57F96 /* STImage_jpeg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STImage_jpeg.cpp; sourceTree = "<group>"; };
+		A536CCF014875F3500C57F96 /* STImage_png.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STImage_png.cpp; sourceTree = "<group>"; };
+		A536CCF114875F3500C57F96 /* STImage_ppm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STImage_ppm.cpp; sourceTree = "<group>"; };
+		A536CCF214875F3500C57F96 /* STJoystick.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STJoystick.cpp; sourceTree = "<group>"; };
+		A536CCF314875F3500C57F96 /* STJoystick_darwin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STJoystick_darwin.cpp; sourceTree = "<group>"; };
+		A536CCF414875F3500C57F96 /* STJoystick_linux.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STJoystick_linux.cpp; sourceTree = "<group>"; };
+		A536CCF514875F3500C57F96 /* STJoystick_win32.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STJoystick_win32.cpp; sourceTree = "<group>"; };
+		A536CCF614875F3500C57F96 /* STPoint2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STPoint2.cpp; sourceTree = "<group>"; };
+		A536CCF714875F3500C57F96 /* STPoint3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STPoint3.cpp; sourceTree = "<group>"; };
+		A536CCF814875F3500C57F96 /* STSceneNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STSceneNode.cpp; sourceTree = "<group>"; };
+		A536CCF914875F3500C57F96 /* STShaderProgram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STShaderProgram.cpp; sourceTree = "<group>"; };
+		A536CCFA14875F3500C57F96 /* STShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STShape.cpp; sourceTree = "<group>"; };
+		A536CCFB14875F3500C57F96 /* STTexture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STTexture.cpp; sourceTree = "<group>"; };
+		A536CCFC14875F3500C57F96 /* STTimer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STTimer.cpp; sourceTree = "<group>"; };
+		A536CCFD14875F3500C57F96 /* STTransform4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STTransform4.cpp; sourceTree = "<group>"; };
+		A536CCFE14875F3500C57F96 /* STVector2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STVector2.cpp; sourceTree = "<group>"; };
+		A536CCFF14875F3500C57F96 /* STVector3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STVector3.cpp; sourceTree = "<group>"; };
+		A536CD0014875F3500C57F96 /* vc2008 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vc2008; sourceTree = "<group>"; };
+		A536CD0114875F3500C57F96 /* xcode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = xcode; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A536CCDE14875F3500C57F96 = {
+			isa = PBXGroup;
+			children = (
+				A536CCE614875F3500C57F96 /* ext */,
+				A536CCE714875F3500C57F96 /* include */,
+				A536CCE814875F3500C57F96 /* lib */,
+				A536CCE914875F3500C57F96 /* Makefile */,
+				A536CCEA14875F3500C57F96 /* STColor3f.cpp */,
+				A536CCEB14875F3500C57F96 /* STColor4f.cpp */,
+				A536CCEC14875F3500C57F96 /* STColor4ub.cpp */,
+				A536CCED14875F3500C57F96 /* STFont.cpp */,
+				A536CCEE14875F3500C57F96 /* STImage.cpp */,
+				A536CCEF14875F3500C57F96 /* STImage_jpeg.cpp */,
+				A536CCF014875F3500C57F96 /* STImage_png.cpp */,
+				A536CCF114875F3500C57F96 /* STImage_ppm.cpp */,
+				A536CCF214875F3500C57F96 /* STJoystick.cpp */,
+				A536CCF314875F3500C57F96 /* STJoystick_darwin.cpp */,
+				A536CCF414875F3500C57F96 /* STJoystick_linux.cpp */,
+				A536CCF514875F3500C57F96 /* STJoystick_win32.cpp */,
+				A536CCF614875F3500C57F96 /* STPoint2.cpp */,
+				A536CCF714875F3500C57F96 /* STPoint3.cpp */,
+				A536CCF814875F3500C57F96 /* STSceneNode.cpp */,
+				A536CCF914875F3500C57F96 /* STShaderProgram.cpp */,
+				A536CCFA14875F3500C57F96 /* STShape.cpp */,
+				A536CCFB14875F3500C57F96 /* STTexture.cpp */,
+				A536CCFC14875F3500C57F96 /* STTimer.cpp */,
+				A536CCFD14875F3500C57F96 /* STTransform4.cpp */,
+				A536CCFE14875F3500C57F96 /* STVector2.cpp */,
+				A536CCFF14875F3500C57F96 /* STVector3.cpp */,
+				A536CD0014875F3500C57F96 /* vc2008 */,
+				A536CD0114875F3500C57F96 /* xcode */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A536CCE514875F3500C57F96 /* libst */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = A536CD0214875F3500C57F96 /* Build configuration list for PBXLegacyTarget "libst" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/rukmani/Documents/cs148/Assignment8/libst;
+			dependencies = (
+			);
+			name = libst;
+			passBuildSettingsInEnvironment = 1;
+			productName = libst;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		A536CCE014875F3500C57F96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = A536CCE314875F3500C57F96 /* Build configuration list for PBXProject "libst" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A536CCDE14875F3500C57F96;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A536CCE514875F3500C57F96 /* libst */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		A536CCE114875F3500C57F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A536CCE214875F3500C57F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A536CD0314875F3500C57F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libst;
+			};
+			name = Debug;
+		};
+		A536CD0414875F3500C57F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libst;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A536CCE314875F3500C57F96 /* Build configuration list for PBXProject "libst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A536CCE114875F3500C57F96 /* Debug */,
+				A536CCE214875F3500C57F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A536CD0214875F3500C57F96 /* Build configuration list for PBXLegacyTarget "libst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A536CD0314875F3500C57F96 /* Debug */,
+				A536CD0414875F3500C57F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A536CCE014875F3500C57F96 /* Project object */;
+}
